@@ -1,0 +1,5 @@
+{
+  "name": "FinVision AI",
+  "description": "A premium financial dashboard tracking Silver, Gold, and Bitcoin. Features AI-powered chart digitization that converts static chart images into interactive data visualizations using Gemini 2.5 Flash.",
+  "requestFramePermissions": []
+}
