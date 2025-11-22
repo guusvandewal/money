@@ -170,7 +170,7 @@ export const fetchMarketData = async (assetName: string): Promise<AssetData> => 
       name: parsed.name || assetName,
       currentValue: parsed.currentValue || "0.00",
       percentageChange: parsed.percentageChange || 0,
-      currency: parsed.currency || "$",
+      currency: parsed.currency || "@=€",
       data: parsed.data || [],
       performance: parsed.performance || [],
       sources: uniqueSources
